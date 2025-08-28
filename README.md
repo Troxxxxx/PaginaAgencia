@@ -22,23 +22,23 @@ Aplicación web para gestión y venta de vehículos:
 
 ---
 
-## 🛠️ Stack Técnico
-- **Backend:** Java 21, Spring Boot 3 (Web, Security, Data JPA, Thymeleaf, Actuator)
-- **Auth:** JWT (jjwt 0.11.5), Google Identity (OAuth2 / token verification)
-- **Base de datos:** MySQL 8, **phpMyAdmin**
-- **Build:** Maven
-- **Frontend templating:** Thymeleaf + Bootstrap 5 + FontAwesome
-- **Infra:** Docker / Docker Compose
+ 🛠️ Stack Técnico
+- Backend: Java 21, Spring Boot 3 (Web, Security, Data JPA, Thymeleaf, Actuator)
+- Auth: JWT (jjwt 0.11.5), Google Identity (OAuth2 / token verification)
+- Base de datos: MySQL 8, phpMyAdmin
+- Build: Maven
+- Frontend templating: Thymeleaf + Bootstrap 5 + FontAwesome
+- Infra: Docker / Docker Compose
 
 ---
 
-## ✨ Features Clave
-- Registro/login tradicional + **login con Google** (`/api/auth/google`).
-- Emisión y almacenamiento de **JWT en cookie `JWT_TOKEN`**.
-- CRUD de entidades: **Carro, Marca, Modelo, Tipo, Imagen**.
-- **Carrito** y **checkout** con verificación de disponibilidad y **marcar vendido**.
-- **PayPal sandbox**: creación y captura de orden, persistencia en `OrdenPago`.
-- **Favoritos** por usuario (agregar/listar/eliminar).
+ ✨ Features Clave
+- Registro/login tradicional + login con Google (`/api/auth/google`).
+- Emisión y almacenamiento de JWT en cookie `JWT_TOKEN`.
+- CRUD de entidades: Carro, Marca, Modelo, Tipo, Imagen.
+- Carrito y checkout con verificación de disponibilidad y marcar vendido.
+- PayPal sandbox: creación y captura de orden, persistencia en `OrdenPago`.
+- Favoritos por usuario (agregar/listar/eliminar).
 
 ---
 
